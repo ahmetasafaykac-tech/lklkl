@@ -43,6 +43,13 @@ export interface SubjectItem {
   description: string;
 }
 
+export interface ChatMessageAttachment {
+  data: string; // base64 payload
+  mimeType: string;
+  previewUrl: string;
+  fileName?: string;
+}
+
 export interface ChatMessage {
   id: string;
   role: 'user' | 'assistant';
@@ -52,6 +59,7 @@ export interface ChatMessage {
   detectedEmotion?: string;
   isVoicePlaying?: boolean;
   sources?: string[];
+  image?: ChatMessageAttachment;
 }
 
 export interface UserEmotionContext {

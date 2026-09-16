@@ -58,7 +58,7 @@ export function verifyAndActivateOwnerCode(code: string): { success: boolean; me
 
   return {
     success: false,
-    message: 'Geçersiz kod! Lütfen "KURUCU-ASAF-77" veya "ASAF-DEV-2026" kodunuzu kontrol ediniz.',
+    message: 'Geçersiz lisans kodu! Lütfen girdiğiniz özel erişim kodunu kontrol edip tekrar deneyiniz.',
     tier: 'free',
   };
 }
