@@ -1,0 +1,6 @@
+{
+  "name": "AtlasAI - Yeni Nesil Kişiselleştirilmiş Eğitim Yapay Zekası",
+  "description": "Türkiye ve EBA kaynaklarıyla donatılmış, anlık insan duygularını anlayan, sesli, 10 dilli, 4 temalı ve odak geliştirme programlı modern yapay zeka.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
